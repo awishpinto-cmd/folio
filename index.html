@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Awish Pinto — Developer Portfolio</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="nav-container">
+    <div class="nav-brand">Awish Pinto</div>
+    <div class="nav-links">
+      <a href="#home" class="nav-item">Home</a>
+      <a href="#projects" class="nav-item">Projects</a>
+      <a href="#contact" class="nav-item">Contact</a>
+      <button id="theme-toggle" class="btn-toggle" aria-label="Toggle dark mode">
+        <span class="icon-moon">🌙</span>
+      </button>
+    </div>
+  </nav>
+
+  <header id="home" class="hero-section">
+    <div class="hero-content">
+      <h1 class="hero-title">Hi, I'm Awish Pinto</h1>
+      <p class="hero-subtitle">Computer Science Student & AI/Computer Vision Developer</p>
+      <p class="hero-lead">Building intelligent local systems, optimizing traffic networks, and crafting high-performance software applications from scratch.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">See My Work</a>
+      </div>
+    </div>
+    <div class="hero-image-container">
+      <img src="profile.jpg" alt="Awish Pinto professional portrait" class="hero-img">
+    </div>
+  </header>
+
+  <main>
+    <section id="projects" class="projects-section">
+      <h2 class="section-title">Selected Projects</h2>
+      
+      <div class="projects-grid">
+        
+        <article class="project-card">
+          <div class="card-image-placeholder">💻</div>
+          <div class="card-content">
+            <span class="card-tag">AI & Computer Vision</span>
+            <h3 class="card-title">Intelli-Signal</h3>
+            <p class="card-desc">An AI-driven dynamic traffic management system utilizing custom YOLO model architectures for edge-based vehicle tracking and low-latency UDP communication.</p>
+            <div class="card-links">
+              <a href="https://github.com/awishpinto" target="_blank" rel="noopener" class="card-link">View Source Code &rarr;</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-image-placeholder">🎨</div>
+          <div class="card-content">
+            <span class="card-tag">UI / UX Design</span>
+            <h3 class="card-title">Figma UI Architecture</h3>
+            <p class="card-desc">A highly scalable layout token system built directly on design guidelines, serving as the interface framework for clean, rapid frontend applications.</p>
+            <div class="card-links">
+              <a href="#" class="card-link">Explore Design &rarr;</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-image-placeholder">⚙️</div>
+          <div class="card-content">
+            <span class="card-tag">Python & Systems</span>
+            <h3 class="card-title">Automation & Intelligence Pipeline</h3>
+            <p class="card-desc">A conceptualized, clean framework built to parse multi-format datasets, structured explicitly for low overhead execution environments.</p>
+            <div class="card-links">
+              <a href="#" class="card-link">Coming Soon &rarr;</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="skills-section">
+      <h2 class="section-title">Core Competencies</h2>
+      <div class="skills-container">
+        <div class="skill-row">
+          <span class="skill-name">Python / Computer Vision (YOLO)</span>
+          <div class="skill-bar-bg">
+            <div class="skill-bar-fill" style="width: 90%;"></div>
+          </div>
+        </div>
+        <div class="skill-row">
+          <span class="skill-name">Flutter / Dart Mobile Apps</span>
+          <div class="skill-bar-bg">
+            <div class="skill-bar-fill" style="width: 85%;"></div>
+          </div>
+        </div>
+        <div class="skill-row">
+          <span class="skill-name">Semantic Web (HTML, CSS, JS Architecture)</span>
+          <div class="skill-bar-bg">
+            <div class="skill-bar-fill" style="width: 80%;"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="footer-container">
+    <div class="footer-content">
+      <h2 class="footer-title">Let's Build Something Together</h2>
+      <p class="footer-lead">Always open to discussions regarding open-source contribution, software architecture, and real-world edge intelligence networks.</p>
+      
+      <div class="contact-links">
+        <a href="https://github.com/awishpinto-cmd" target="_blank" rel="noopener" class="contact-link-item">
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value">@awishpinto-cmd</span>
+        </a>
+  
+        <a href="https://linkedin.com/in/awish-pinto-2b6753351" target="_blank" rel="noopener" class="contact-link-item">
+            <span class="contact-label">LinkedIn</span>
+            <span class="contact-value">Connect &rarr;</span>
+        </a>
+      </div>
+    </div>
+    
+    <hr class="footer-divider">
+    <p class="footer-copyright">&copy; 2026 Awish Pinto. Designed for structural speed and standard compliance.</p>
+  </footer>
+
+  <button id="back-to-top" class="btn-top" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
