@@ -229,6 +229,25 @@ button {
   box-shadow: 0 10px 15px -3px var(--shadow);
   border-color: var(--primary);
 }
+/* ==========================================================================
+   SUPPLEMENTARY TASK: FIGMA INTERACTIVE EMBED FRAME (+200 XP)
+   ========================================================================== */
+.figma-embed-container {
+  position: relative;
+  width: 100%;
+  height: 240px; /* Provides ample viewport breathing space inside the card framework */
+  background-color: var(--bg-primary);
+  border-bottom: 1px solid var(--border-color);
+  overflow: hidden;
+}
+
+.figma-embed-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 .card-image-placeholder {
   height: 160px;
@@ -491,6 +510,7 @@ button {
   /* Enforces a clean layout balance */
   display: -webkit-box;
   -webkit-line-clamp: 2;
+  line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
