@@ -455,6 +455,8 @@ button {
   border-radius: var(--radius);
   transition: var(--transition-smooth);
   box-shadow: 0 4px 6px -1px var(--shadow);
+  display: flex;          /* Added */
+  flex-direction: column; /* Added */
 }
 
 .blog-card:hover {
@@ -497,7 +499,7 @@ button {
   font-size: 0.9rem;
   font-weight: 600;
   color: var(--primary);
-  margin-top: var(--space-xs);
+  margin-top: auto;       /* Changed from var(--space-xs) to auto */
   display: inline-block;
 }
 /* ==========================================================================
